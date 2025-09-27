@@ -557,6 +557,6 @@ def abrir_pasta_logs_dia():
 
 ttk.Button(frame_botoes, text="Abrir Excel do Dia", width=20, bootstyle="secondary", command=abrir_excel_do_dia, padding=(10,10)).pack(side=LEFT, padx=5)
 ttk.Button(frame_botoes, text="Abrir Pasta dos Logs", width=20, bootstyle="secondary", command=abrir_pasta_logs_dia, padding=(10,10)).pack(side=LEFT, padx=5)
-
+#teste
 if __name__ == "__main__":
     app.mainloop()
